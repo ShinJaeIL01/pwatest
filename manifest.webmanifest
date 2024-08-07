@@ -1,0 +1,17 @@
+{
+  "name": "net Hub",
+  "icons": [
+    {
+      "src": "/nextlab_symbol.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "display": "fullscreen",
+  "start_url": "/",
+  "description": "nextlab net-Hub",
+  "background_color": "white",
+  "short_name": "netmeter",
+  "theme_color": "#2E57A3",
+  "orientation": "portrait"
+}
