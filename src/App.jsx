@@ -12,6 +12,7 @@ function App() {
       e.preventDefault();
       setDeferredPrompt(e);
       setIsShown(true);
+      console.log({ e });
     };
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
 
@@ -44,6 +45,7 @@ function App() {
               if (!deferredPrompt) {
                 return;
               }
+              console.log({ deferredPrompt });
               deferredPrompt.prompt();
               setDeferredPrompt(null);
             }}
@@ -51,6 +53,7 @@ function App() {
             install
           </button>
         )}
+        <button onClick={() => {}}>share</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
